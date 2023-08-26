@@ -1,5 +1,5 @@
 :root {
-    --primary: rgb(79, 154, 240);
+    --primary: rgb(112, 112, 112);
     --grey: #000000;
     --card-width: 320px;
     --image-width: calc(var(var(--card-width)/1.5));
@@ -9,12 +9,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Fira sans", sans-serif;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: large;
 }
 
 main {
     min-height: 100vh;
-    background-image: linear-gradient(to bottom right, rgb(0, 140, 255), rgb(192, 196, 255));
+    background-image: linear-gradient(to bottom right, rgb(6, 15, 56), rgb(37, 37, 39));
     display: flex;
     align-items: center;
     justify-content: center; 
@@ -25,7 +27,7 @@ main {
     position: relative;
     width: 100%;
     max-width: var(--card-width);
-    background-color: hsla(170, 31%, 68%, 0.801);
+    background-color: hsla(0, 0%, 35%, 0.801);
     border-radius: 1rem;
     padding: 1.5rem;
     text-align: center;
@@ -39,7 +41,7 @@ main {
     width: var(--image-width);
     height: var(--image-width);
     border-radius: 50%;
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 3px 6px rgba(8, 8, 56, 0.1);
     margin: -8rem auto 1.5rem;
     padding: 0.25rem;
     overflow: hidden;
@@ -79,7 +81,7 @@ main {
     display: block; 
     padding: 0.5rem 1rem; 
     min-width: 160px;
-    background-color: rgb(103, 51, 223);
+    background-color: rgb(0, 113, 128);
     color: #FFF;
     font-size: 1.25rem; 
     border-radius: 0.5rem;
