@@ -1,0 +1,150 @@
+:root {
+  --primary: rgb(0, 0 ,0)
+}
+p {
+  color: white;
+  margin: 0;
+  padding: 0;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 25px;
+  line-clamp: 10px;
+  font-weight: 600;
+}      
+.body {
+  background-image: linear-gradient(to bottom right, rgb(6, 15, 56), rgb(119, 119, 119));
+  min-height: 100vh;
+  margin: 0px;
+}
+.short-qoute-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.shourt-qoute-text {
+  align-items: center;
+  display: inline-block;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 40px;
+  color: white;
+}
+.qoute-link {
+  color: white;
+  text-underline-position: none;
+  text-decoration: none;
+  transition: color 0.15s;
+}
+.qoute-link:hover {
+  cursor: pointer;
+  color: rgb(93, 120, 151)
+}
+.me-box {
+  display: grid;
+  height: 600px;
+  grid-template-columns: 2fr 3fr;
+  column-gap: 50px;
+  row-gap: 20px;
+  border: none;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+.me-card {
+  background-image: linear-gradient(to bottom right, rgb(6, 11, 61), rgb(106, 110, 115));
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  border-radius: 2%;
+  padding-left: 30px;
+  padding-right: 30px;
+  height: 100%;
+}
+.me-anime-img {
+  text-align: center;
+  height: 300px;
+  width: 300px;
+  border-radius: 70%;
+  object-fit: cover;
+  margin-top: 50px;
+}
+.me-name {
+  color: white;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 30px;
+  text-align: center;
+  font-weight: 600;
+  padding-bottom: 15px;
+  padding-top: 10px;
+}
+.me-main-info {
+  text-align: center;
+}
+.wallpaper-first {
+  object-fit: cover;
+  height: 600px;
+  width: 100%;
+  border-radius: 1%;
+}
+.me-study-box {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  column-gap: 30px;
+  margin-bottom: 30px;
+}
+.study-boy-gif {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 1%;
+  height: 600px;
+}      
+.me-motivation-textbox {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-image: linear-gradient(to top left, rgb(142, 143, 176), rgb(17, 37, 61));
+}
+.me-motivation-text {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 18px;
+}
+.qoute-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 30px
+}
+.qoute-text {
+  align-items: center;
+  text-align: center;
+  font-size: 40px;
+  font-weight: lighter;
+}
+.link-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 150px
+}
+.link-button {
+  text-align: center;
+  background-color: transparent;
+  border: none;
+  transition: opacity 0.15s;
+}
+.link-button:hover {
+  opacity: 0.8;
+}
+.link-button:active {
+  opacity: 0.5;
+}
+.button-img{
+  height: 100px;
+  border: none;
+  border-radius: 50%;
+  background-color: none;
+}
+
