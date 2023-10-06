@@ -100,6 +100,7 @@ p {
   flex-direction: row;
   text-align: center;
   align-items: center;
+  justify-content: center;
   padding-left: 10px;
   padding-right: 10px;
   background-image: linear-gradient(to top left, rgb(142, 143, 176), rgb(17, 37, 61));
